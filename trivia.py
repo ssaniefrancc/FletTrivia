@@ -28,7 +28,7 @@ class TriviaGame(ft.UserControl):
             ) for _ in range(4)
         ]
         
-        self.timer_text = ft.Text(value=f"⏰ {self.timer} sec", size=18, color="red", visible=False)
+        self.timer_text = ft.Text(value=f"⏰ {self.timer} s", size=18, color="red", visible=False)
         self.start_button = ft.ElevatedButton(text="Comenzar", on_click=self.start_game, width=200, height=50, color="green")
         self.restart_button = ft.ElevatedButton(text="Reiniciar", on_click=self.restart_game, width=200, height=50, color="orange", visible=False)
 
